@@ -1,3 +1,7 @@
 // Greet the visitor
-  let name = prompt("WHat is your name?");
+function greeting (){
+  let name = prompt('What is your name?');
   alert( `Welcome back, ${name}!`);
+}
+
+greeting();
